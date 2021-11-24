@@ -1,0 +1,96 @@
+body{
+    margin: 0;
+}
+/*Configuração da Capa*/
+#section1{
+    background: url(img/img1.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 80%;
+    text-align: center;
+}
+h1{
+    padding-top: 150px;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 50px;
+    color: #F2D64B;
+}
+h1:hover{
+    transition: linear 0.4s;
+    color: #F2EEB3;
+}
+/*Configurações Gerais*/
+#subtitulo{
+    color: #F2D64B;
+    padding: 0px 100px;
+    border-top: #F2D64B dotted 5px;
+    margin: 10px 10%;
+    font-size: 20px;
+}
+#subtitulo:hover{
+    transition: linear 0.2s;
+    color: #F2EEB3;
+}
+a{
+    color: #F2E635;
+    text-decoration: none;
+    border: #F2E635 solid 2px;
+    padding: 5px 20px;
+}
+a:hover{
+    background-color: #A69D1F;
+    color: #ffffff;
+    border: #ffffff solid 2px;
+    transition: linear 0.2s;
+}
+#section2{
+    background-color: #F2EEB3;
+    font-size: 20;
+    color: #000000;
+    border-top: #979DA6 solid 4px;
+    padding-bottom: 100%;
+    padding-top: 9px;
+}
+.subtitulos{
+    color: #979DA6;
+    text-decoration: underline;
+    text-align: cen
+}
+h2{
+    margin: 0;
+}
+#section3{
+    background-color: #f5e17f;
+    padding: 30px;
+    text-align: center;
+}
+h3{
+    margin: 0;
+    color: #979DA6;
+    font-size: 25px;
+}
+/*Configurações FLOAT*/
+.flutuar{
+    float: left;
+}
+#bloco1{
+    width: 50%;
+    float: left;
+}
+#bloco2{
+    width: 49%;
+    float: right;
+    padding-top: 1px;
+}
+#bloco3{
+    width: 
+}
+#bloco4{
+    
+}
+#imagemfloat{
+    padding-left: 2px;
+    width: 50.1%;
+    height: 32%;
+}
